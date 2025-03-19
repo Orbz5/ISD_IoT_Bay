@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="header">Davey's Record Store</div>
+<div class="header">IoT Store</div>
 <div class="content">
     <div class="bg"></div>
-    <h1>Daveys Record Store</h1>
+    <h1>IoT Record Store</h1>
     <p>Kpop, Hardstyle and more!</p>
     <div>
         <%
