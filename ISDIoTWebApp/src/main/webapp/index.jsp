@@ -1,24 +1,16 @@
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 
+<!DOCTYPE html>
+
 <html>
 <head>
-    <title>Home Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>IoT-Bay Store</title>
+    <link rel="stylesheet" type="text/css" href="landingPageStyle.css">
 </head>
 <body>
-<div class="header">IoT Store</div>
-<div class="content">
-    <div class="bg"></div>
-    <h1>IoT Record Store</h1>
-    <p>Kpop, Hardstyle and more!</p>
-    <div>
-        <%
-            out.println("Registered Users: " + 6 );
-        %>
-    </div>
-    <br>
-    <a href="register.jsp"><button>Enter the record store</button></a>
-</div>
-<div class="footer">Stylesheet is not to be used in assessable submissions</div>
+<h1>IoT-Bay Products</h1>
+<p>Please choose products!</p>
+<a href="welcomePage.jsp">Go to Welcome Page</a>
 </body>
 </html>
+
