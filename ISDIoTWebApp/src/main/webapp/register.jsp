@@ -7,7 +7,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Registration page</title>
-    <link rel="stylesheet" type="text/css" href="landingPageStyle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 <%--<nav>--%>
@@ -16,7 +17,7 @@
 <%--</nav>--%>
 <div class="form-container">
     <h1>Sign up</h1>
-    <form action="welcomePage.jsp" method="post">
+    <form action="welcome.jsp" method="post">
         <table>
             <tr><td>Full Name: </td><td><input type="text" placeholder="Enter name" name="name" required></td></tr>
             <tr><td>Email: </td><td><input type="email" placeholder="Enter email" name="email" required></td></tr>
@@ -48,7 +49,7 @@
             <tr><td></td><td><input type="submit" value="Register"></td></tr>
         </table>
     </form>
-    <a href="index.jsp">Back to Home</a>
+    <a href="login.jsp">Back to LoginPage</a>
 </div>
 
 </body>
